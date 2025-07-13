@@ -15,6 +15,12 @@ class JwtService(
     @Value("\${jwt.secret}") private val jwtSecret: String
 ) {
 
+    init {
+        require(jwtSecret.matches(Regex("^[A-Za-z0-9+/=]+$"))) {
+            "JWT secret is not valid Base64"
+        }
+    }
+
     private val secretKey = Keys.hmacShaKeyFor(Base64.getDecoder().decode(jwtSecret))
     private val accessTokenValidityMs = 15L * 60L * 1000L
     val refreshTokenValidityMs = 30L * 24L * 60L * 60L * 1000L
