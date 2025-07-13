@@ -1,6 +1,6 @@
-package com.serhiihrabas.sptring_boot_crash_course.database.repository
+package com.serhiihrabas.spring_boot_crash_course.database.repository
 
-import com.serhiihrabas.sptring_boot_crash_course.database.model.Note
+import com.serhiihrabas.spring_boot_crash_course.database.model.Note
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.repository.MongoRepository
 

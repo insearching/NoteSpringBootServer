@@ -1,9 +1,9 @@
-package com.serhiihrabas.sptring_boot_crash_course.security
+package com.serhiihrabas.spring_boot_crash_course.security
 
-import com.serhiihrabas.sptring_boot_crash_course.database.model.RefreshToken
-import com.serhiihrabas.sptring_boot_crash_course.database.model.User
-import com.serhiihrabas.sptring_boot_crash_course.database.repository.RefreshTokenRepository
-import com.serhiihrabas.sptring_boot_crash_course.database.repository.UserRepository
+import com.serhiihrabas.spring_boot_crash_course.database.model.RefreshToken
+import com.serhiihrabas.spring_boot_crash_course.database.model.User
+import com.serhiihrabas.spring_boot_crash_course.database.repository.RefreshTokenRepository
+import com.serhiihrabas.spring_boot_crash_course.database.repository.UserRepository
 import org.bson.types.ObjectId
 import org.springframework.http.HttpStatus
 import org.springframework.http.HttpStatusCode

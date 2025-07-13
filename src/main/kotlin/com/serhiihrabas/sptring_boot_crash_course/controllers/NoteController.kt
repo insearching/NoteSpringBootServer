@@ -1,7 +1,7 @@
-package com.serhiihrabas.sptring_boot_crash_course.controllers
+package com.serhiihrabas.spring_boot_crash_course.controllers
 
-import com.serhiihrabas.sptring_boot_crash_course.database.model.Note
-import com.serhiihrabas.sptring_boot_crash_course.database.repository.NoteRepository
+import com.serhiihrabas.spring_boot_crash_course.database.model.Note
+import com.serhiihrabas.spring_boot_crash_course.database.repository.NoteRepository
 import jakarta.validation.Valid
 import jakarta.validation.constraints.NotBlank
 import org.bson.types.ObjectId

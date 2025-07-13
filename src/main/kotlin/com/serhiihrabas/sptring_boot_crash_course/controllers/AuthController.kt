@@ -1,6 +1,6 @@
-package com.serhiihrabas.sptring_boot_crash_course.controllers
+package com.serhiihrabas.spring_boot_crash_course.controllers
 
-import com.serhiihrabas.sptring_boot_crash_course.security.AuthService
+import com.serhiihrabas.spring_boot_crash_course.security.AuthService
 import jakarta.validation.Valid
 import jakarta.validation.constraints.Email
 import jakarta.validation.constraints.Pattern

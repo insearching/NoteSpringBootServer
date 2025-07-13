@@ -1,4 +1,4 @@
-package com.serhiihrabas.sptring_boot_crash_course
+package com.serhiihrabas.spring_boot_crash_course
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

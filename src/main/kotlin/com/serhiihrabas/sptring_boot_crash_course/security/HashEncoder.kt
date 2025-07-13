@@ -1,4 +1,4 @@
-package com.serhiihrabas.sptring_boot_crash_course.security
+package com.serhiihrabas.spring_boot_crash_course.security
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 import org.springframework.stereotype.Component

@@ -1,4 +1,4 @@
-package com.serhiihrabas.sptring_boot_crash_course.security
+package com.serhiihrabas.spring_boot_crash_course.security
 
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts

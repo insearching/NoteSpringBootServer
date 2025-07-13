@@ -1,1 +1,1 @@
-rootProject.name = "sptring_boot_crash_course"
+rootProject.name = "spring_boot_crash_course"

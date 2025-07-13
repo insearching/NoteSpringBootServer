@@ -1,4 +1,4 @@
-package com.serhiihrabas.sptring_boot_crash_course.database.model
+package com.serhiihrabas.spring_boot_crash_course.database.model
 
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.core.index.Indexed
